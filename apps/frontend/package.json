@@ -1,0 +1,37 @@
+{
+  "name": "practice_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "eslint": "next lint",
+    "eslint:fix": "next lint --fix",
+    "stylelint": "npx stylelint **/*.scss",
+    "stylelint:fix": "npx stylelint **/*.scss --fix",
+    "lint": "npm run eslint && npm run stylelint",
+    "lint:fix": "npm run eslint:fix && npm run stylelint:fix"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.18",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "@stylistic/eslint-plugin-js": "^1.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-import-order": "^2.1.4",
+    "sass": "^1.67.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^5.2.1"
+  }
+}
